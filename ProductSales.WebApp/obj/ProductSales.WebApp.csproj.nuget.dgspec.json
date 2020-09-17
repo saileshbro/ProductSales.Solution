@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.WebApp\\ProductSales.WebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.DataAccess\\ProductSales.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.DataAccess\\ProductSales.DataAccess.csproj",
+        "projectName": "ProductSales.DataAccess",
+        "projectPath": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.DataAccess\\ProductSales.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\saileshbro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saileshbro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.Models\\ProductSales.Models.csproj": {
+                "projectPath": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.Models\\ProductSales.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.Models\\ProductSales.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.Models\\ProductSales.Models.csproj",
+        "projectName": "ProductSales.Models",
+        "projectPath": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.Models\\ProductSales.Models.csproj",
+        "packagesPath": "C:\\Users\\saileshbro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saileshbro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.WebApp\\ProductSales.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.WebApp\\ProductSales.WebApp.csproj",
+        "projectName": "ProductSales.WebApp",
+        "projectPath": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.WebApp\\ProductSales.WebApp.csproj",
+        "packagesPath": "C:\\Users\\saileshbro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saileshbro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.DataAccess\\ProductSales.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.DataAccess\\ProductSales.DataAccess.csproj"
+              },
+              "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.Models\\ProductSales.Models.csproj": {
+                "projectPath": "C:\\Users\\saileshbro\\WORKING\\INTERN\\ProductSales.Solution\\ProductSales.Models\\ProductSales.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
